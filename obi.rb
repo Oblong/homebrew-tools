@@ -3,7 +3,7 @@ class Obi < Formula
   homepage "https://github.com/Oblong/obi"
   url "https://github.com/Oblong/obi/releases/download/v2.0.0/oblong-obi-2.0.0.tar.gz"
   sha256 "e91f3c50f026d4af774983b7e68810af10e4d41c46b100a59f16ed59118d9845"
-  head "https://github.com/Oblong/obi", :branch => "master"
+  head "https://github.com/Oblong/obi.git", :using => :git, :branch => "master"
 
   depends_on :python if MacOS.version <= :snow_leopard
   depends_on "libyaml"
