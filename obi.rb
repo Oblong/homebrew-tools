@@ -19,8 +19,8 @@ class Obi < Formula
   end
 
   resource "Fabric" do
-    url "https://pypi.python.org/packages/source/F/Fabric/Fabric-1.10.2.tar.gz"
-    sha256 "666a3da92273532d3a49dd1ac53e3d721c5ec2f2512cd7dddb7ce19e29e9f038"
+    url "https://pypi.python.org/packages/source/F/Fabric/Fabric-1.10.3.tar.gz"
+    sha256 "bd9f9f9349bb012978bac94d58b23abff778c3c8a04f9c2480bd40cff39e4525"
   end
 
   resource "Jinja2" do
