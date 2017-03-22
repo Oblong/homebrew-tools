@@ -1,5 +1,5 @@
 class Obs < Formula
-  desc "Oblong Oblong Bootstrap Scripts"
+  desc "Oblong Bootstrap Scripts"
   homepage "https://github.com/Oblong/obs"
   # Expanded by obs/buildshim, do not edit by hand
   url "https://github.com/Oblong/obs/archive/rel-0.32.tar.gz"
