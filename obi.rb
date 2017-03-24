@@ -62,6 +62,9 @@ class Obi < Formula
     bin.install Dir[libexec/"bin/*"]
     bin.env_script_all_files(libexec/"bin", :PYTHONPATH => ENV["PYTHONPATH"])
     man1.install "obi.1"
+    if File.file? "obi-bash-completion.sh" then
+      bash_completion.install "obi-bash-completion.sh" => "obi"
+    end
   end
 
   test do
