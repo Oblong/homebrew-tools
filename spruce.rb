@@ -2,8 +2,8 @@ class Spruce < Formula
   desc "Oblong clang-format helper"
   homepage "https://github.com/Oblong/spruce"
   # Expanded by spruce/buildshim, do not edit by hand
-  url "https://github.com/Oblong/spruce/archive/rel-0.8.tar.gz"
-  sha256 "d192eaba64b0f31593135d3a89f255923b6fa496331c8ada8c96f4b48174902e"
+  url "https://github.com/Oblong/spruce/archive/rel-0.9.tar.gz"
+  sha256 "ee2f70e21255d500ecd4ced7c2277c5ba9b3b897125041124855ceeb418fede4"
   head "https://github.com/Oblong/spruce.git", :using => :git, :branch => "master"
 
   def install
