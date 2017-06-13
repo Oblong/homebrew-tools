@@ -2,8 +2,8 @@ class Obs < Formula
   desc "Oblong Bootstrap Scripts"
   homepage "https://github.com/Oblong/obs"
   # Expanded by obs/buildshim, do not edit by hand
-  url "https://github.com/Oblong/obs/archive/rel-0.59.tar.gz"
-  sha256 "67bc6d1716264e6436c56c85fd4cd235843d6228bbd2143c8178554a144b4542"
+  url "https://github.com/Oblong/obs/archive/rel-0.60.tar.gz"
+  sha256 "cbec3b51317ad1ce07c2516d42dc759e554cbcf2104f2c0784c511b36810dc80"
   head "https://github.com/Oblong/obs.git", :using => :git, :branch => "master"
 
   def install
