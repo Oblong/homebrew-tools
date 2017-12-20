@@ -1,12 +1,16 @@
+# Expanded by obs/buildshim, do not edit by hand; instead,
+# edit ci/obs.rb.in in obs master repo
 class Obs < Formula
   desc "Oblong Bootstrap Scripts"
   homepage "https://github.com/Oblong/obs"
-  # Expanded by obs/buildshim, do not edit by hand
-  url "https://github.com/Oblong/obs/archive/rel-1.4.tar.gz"
-  sha256 "66256e4344a10eaa1be73b2215950348335970481c077c23687ae5ce8cfa4d16"
+  depends_on "asciidoc"
+
+  url "https://github.com/Oblong/obs/archive/rel-1.5.tar.gz"
+  sha256 "28b0b3c8cc20438d23611c3cb645ae0458722e5612e58e096f71fd305a89f698"
   head "https://github.com/Oblong/obs.git", :using => :git, :branch => "master"
 
   def install
+    system "make"
     system "make", "install", "PREFIX=#{prefix}"
   end
 end
