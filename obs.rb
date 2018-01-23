@@ -5,8 +5,8 @@ class Obs < Formula
   homepage "https://github.com/Oblong/obs"
   depends_on "asciidoc"
 
-  url "https://github.com/Oblong/obs/archive/rel-1.8.tar.gz"
-  sha256 "8b6cad4c4194806a82b7f45645bf6ada6bab09356d06cf1a5be1fc3960f0a512"
+  url "https://github.com/Oblong/obs/archive/rel-1.9.tar.gz"
+  sha256 "d0bf74787263bc23dc3413bcc9bb75452bae4e92be47ac8b6fa26285d04e8b2b"
   head "https://github.com/Oblong/obs.git", :using => :git, :branch => "master"
 
   def install
