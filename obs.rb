@@ -4,9 +4,10 @@ class Obs < Formula
   desc "Oblong Bootstrap Scripts"
   homepage "https://github.com/Oblong/obs"
   depends_on "asciidoc"
+  depends_on "coreutils"
 
-  url "https://github.com/Oblong/obs/archive/rel-1.9.tar.gz"
-  sha256 "d0bf74787263bc23dc3413bcc9bb75452bae4e92be47ac8b6fa26285d04e8b2b"
+  url "https://github.com/Oblong/obs/archive/rel-1.10.tar.gz"
+  sha256 "c7d53d80a7f4d984d38d639b5156033f52820252f954b2bc42db4706b5f41ddd"
   head "https://github.com/Oblong/obs.git", :using => :git, :branch => "master"
 
   def install
