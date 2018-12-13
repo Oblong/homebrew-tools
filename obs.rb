@@ -6,10 +6,9 @@ class Obs < Formula
   depends_on "asciidoc"
   depends_on "coreutils"
   depends_on "gnu-sed"
-  depends_on "go"
 
-  url "https://github.com/Oblong/obs/archive/rel-1.24.tar.gz"
-  sha256 "e4482f9520054bdbae3f5d8ad8240eee2d3ec531313057b2f6baeee588129bce"
+  url "https://github.com/Oblong/obs/archive/rel-1.25.tar.gz"
+  sha256 "7dea8afefcb877ad3c653daf4b68ee9f3e3b57eae542b26ca66d6cfacc569c1b"
   head "https://github.com/Oblong/obs.git", :using => :git, :branch => "master"
 
   def install
