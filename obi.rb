@@ -1,8 +1,8 @@
 class Obi < Formula
   desc "Command-line tool for scaffolding and running g-speak projects"
   homepage "https://github.com/Oblong/obi"
-  url "https://github.com/Oblong/obi/archive/v3.4.8.tar.gz"
-  sha256 "7440f7138edbccea5bdd51faf66223b35d3074218840894f8cd851cce5e55ce7"
+  url "https://github.com/Oblong/obi/archive/v3.4.9.tar.gz"
+  sha256 "11aad12b57ac3dfe6a466fabd438ae861c2a2ec67a377ace40e3d908bf5caee4"
   head "https://github.com/Oblong/obi.git", :using => :git, :branch => "master"
 
   depends_on :python if MacOS.version <= :snow_leopard
@@ -24,8 +24,8 @@ class Obi < Formula
   end
 
   resource "Jinja2" do
-    url "https://pypi.python.org/packages/source/J/Jinja2/Jinja2-2.8.tar.gz"
-    sha256 "bc1ff2ff88dbfacefde4ddde471d1417d3b304e8df103a7a9437d47269201bf4"
+    url "https://pypi.python.org/packages/source/J/Jinja2/Jinja2-2.8.1.tar.gz"
+    sha256 "35341f3a97b46327b3ef1eb624aadea87a535b8f50863036e085e7c426ac5891"
   end
 
   resource "MarkupSafe" do
