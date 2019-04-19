@@ -1,8 +1,8 @@
 class Obi < Formula
   desc "Command-line tool for scaffolding and running g-speak projects"
   homepage "https://github.com/Oblong/obi"
-  url "https://github.com/Oblong/obi/archive/v3.5.0-1.tar.gz"
-  sha256 "2942b795a50469e4c9f094fbcf6ed4752f0817486b4d99578b790905dc25ce07"
+  url "https://github.com/Oblong/obi/archive/v3.5.1.tar.gz"
+  sha256 "f9ee9cccbb6b782a8e25dd8a6303eed87fb39229b20aca56e251f9d2e8431370"
   head "https://github.com/Oblong/obi.git", :using => :git, :branch => "master"
 
   depends_on :python if MacOS.version <= :snow_leopard
