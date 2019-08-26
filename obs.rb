@@ -7,8 +7,8 @@ class Obs < Formula
   depends_on "coreutils"
   depends_on "gnu-sed"
 
-  url "https://github.com/Oblong/obs/archive/rel-1.38.tar.gz"
-  sha256 "871d3ccc07892f82184d510fe5875430957ffb71e2a115b0e01538f32c1b1df8"
+  url "https://github.com/Oblong/obs/archive/rel-1.39.tar.gz"
+  sha256 "6be150dcbb56849f97abd62666fd7609b1fd51a0173948ae5498e8dc2eb5a184"
   head "https://github.com/Oblong/obs.git", :using => :git, :branch => "master"
 
   def install
